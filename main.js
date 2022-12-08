@@ -1,4 +1,5 @@
-import './style.css'
+import './style.css';
+
 import * as THREE from 'three';
 import{ OrbitControls } from 'three/examples/jsm/controls/OrbitControls';  // mouse controls
 //import { EffectComposer } from "/node_modules/three/examples/jsm/postprocessing/EffectComposer.js";

@@ -34,4 +34,3 @@ const square = entry.target.querySelector('.divider');
    });
 });
 
-
