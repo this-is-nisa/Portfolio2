@@ -1,7 +1,7 @@
-import './style.css';
 
-import * as THREE from 'three';
-import{ OrbitControls } from 'three/examples/jsm/controls/OrbitControls';  // mouse controls
+
+import * as THREE from 'https://cdn.skypack.dev/three';
+import{ OrbitControls } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls.js';  // mouse controls
 //import { EffectComposer } from "/node_modules/three/examples/jsm/postprocessing/EffectComposer.js";
 //import { UnrealBloomPass } from "/node_modules/three/examples/jsm/postprocessing/UnrealBloomPass.js";
 //import { RenderPass } from "/node_modules/three/examples/jsm/postprocessing/RenderPass.js";

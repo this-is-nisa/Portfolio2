@@ -15,26 +15,27 @@
     <!--heading with greeting and headshot + caption-->
     <div class="header">
       <div class="greeting fade-in" id="time"> </div>
-      <div class="pic fade-in"><img id="pic" src='https://this-is-nisa.github.io/imgs/walter.jpg'>
-        <p class="title fade-in">Aspiring Computer Programmer</p>
+      <div class="pic fade-in"><img id="pic" src='imgs/nisa-pic.PNG'>
+        <p class="title fade-in"><i><b>Aspiring Computer Programmer</b></i></p>
+        <br>  <hr class="divider fade-in"> <br>
       </div>
     </div>
 
     <!--showcase-->
     <div class="vertical-scroll">
       <p class="subject fade-in">About Me</p>
-      <p class="fade-in"> Since an early age, I have always loved to solve problems. </p>
-      <p class="fade-in">In middle school, I was introduced to Code.org where I was fascinated by the ability to make objects move and come to life with my command </p>
+      <p class="fade-in"> Since an early age, I have always loved solving problems and creating new things. </p>
+      <p class="fade-in">In middle school, I was introduced to Code.org where I was fascinated by the ability to make objects move and come to life with my command. </p>
       <p class="fade-in">From that moment I knew exactly where I wanted to direct my life towards: computer science.</p>
       <br>  <hr class="divider fade-in"> <br>
-      <p class="fade-in">I joined the <mark>Girls Who Code</mark> club in my high school</p>
-      <p class="fade-in">Within these few years, I learned to code, build websites, and make games. Today I am the president of my school's Girls Who Code</p>
+      <p class="fade-in">I joined the <mark>Girls Who Code</mark> club in my high school.</p>
+      <p class="fade-in">Within these few years, I learned to code, build websites, and make games. Today I am the president of my school's Girls Who Code.</p>
       <img>
     </div>
     <div class="pics">
-      <img class="GWCpic fade-in" src="https://repo.github.io/Portfolio/imgs/GWCPic.jpg">
-      <img class="GWCpic fade-in" src="https://repo.github.io/Portfolio/imgs/OpenHousePoster.jpg">
-      <img class="GWCpic fade-in" src="https://repo.github.io/Portfolio/imgs/SendaSnack.jpg">
+      <img class="GWCpic fade-in" src="imgs/GWCPic.jpg">
+      <img class="GWCpic fade-in" src="imgs/OpenHousePoster.jpg">
+      <img class="GWCpic fade-in" src="imgs/SendaSnack.jpg">
     </div>
 
     <div class="vertical-scroll">
@@ -44,7 +45,7 @@
     <div class="perfClub fade-in">
       <p class="p1">We are currently programming a survey called <mark>"Perfect Club 4 U"</mark> </p>
       <p class="description"> A Google Form edited with Appscript to create a quiz that tells the user what club at our school is best fit for them based on their answers.</p>
-      <img class="code-gif fade-in" src="https://repo.github.io/Portfolio/imgs/PerfClub4Ucode.gif">
+      <img class="code-gif fade-in" src="imgs/PerfClub4Ucode.gif">
     </div>
 
     <div class="vertical-scroll">
@@ -143,7 +144,15 @@ else if (hr >= 12 || hr <= 17) {
 }
 }
 </script>
-<script type="module" src="./main.js"></script>
-<script type="module" src="./scroll.js"></script>
+<script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js"
+            }
+        } </script>
+
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/scroll.js"></script>
 </body>
 </html>
